@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+    <div class="d-flex align-items-center justify-content-between w-100">
+        <button mat-icon-button class="d-flex align-items-center">
+            <mat-icon class="me-2">history</mat-icon>
+            <span>Habit</span>
+        </button>
+        <div>
+            <button 
+                mat-icon-button
+                [matMenuTriggerFor]="menu"
+            >
+                <mat-icon>format_color_fill</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item  (click)="setColorTheme('')">
+                    <div class="color-swatch color-swatch-primary"></div>
+                </button>
+                <button mat-menu-item (click)="setColorTheme('green')">
+                    <div class="color-swatch color-swatch-green-primary"></div>
+                </button>
+            </mat-menu>
+        </div>
+    </div>
+</mat-toolbar>

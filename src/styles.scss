@@ -8,6 +8,12 @@
     $theme: $app-theme;
     @include angular-material-theme($app-theme);
 }
+.app-theme-green{
+    $color: $app-theme-green-primary;
+    $theme: $app-theme-green;
+    @include angular-material-theme($app-theme-green);
+}
+
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

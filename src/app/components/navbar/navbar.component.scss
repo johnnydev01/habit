@@ -1,0 +1,24 @@
+@import '../../../assets/sass/themes/thems.scss';
+
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    opacity:1 !important;
+
+}
+
+
+.color-swatch{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.color-swatch-primary{
+    background-color: mat-color($app-theme-primary);
+  }
+  .color-swatch-green-primary{
+    background-color: mat-color($app-theme-green-primary);
+  }

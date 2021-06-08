@@ -1,5 +1,3 @@
-<div class="app-theme">
-  <mat-toolbar color="primary">
-    <span>My App</span>
-  </mat-toolbar>
+<div [ngClass]="themeClass | async">
+  <app-navbar></app-navbar>
 </div>
