@@ -16,7 +16,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.formGroup = this.formBuilder.group({
-      trigger: ['']
+      trigger: [''],
+      wish: [''],
+      routine: [''],
+      reward: ['']
     })
   }
 

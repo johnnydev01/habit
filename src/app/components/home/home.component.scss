@@ -1,0 +1,14 @@
+.container-form{
+    display:flex;
+    justify-content: center;
+    form{
+        align-items: center;
+        flex-direction: column;
+    }
+    button{
+        width: 50%;
+    }
+}
+mat-form-field{
+    width: 400px
+}

@@ -10,7 +10,7 @@ button{
 }
 
 
-mat-toolbar.mat-toolbar {
+mat-toolbar {
     position: fixed;
     top: 0;
     right: 0;
@@ -28,7 +28,7 @@ mat-toolbar.mat-toolbar {
     display: flex;
     align-items: center;
     padding-left: 16px;
-    min-height: calc(45vh - 70px);
+    min-height: calc(40vh - 70px);
 
   }
     
