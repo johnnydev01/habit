@@ -51,4 +51,8 @@ describe('NavbarComponent', () => {
     expect(component).toBeTruthy();
   });
 
+  it('should set color', () =>{
+    expect(component.setColorTheme('green'));
+  })
+
 });

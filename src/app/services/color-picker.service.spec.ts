@@ -23,5 +23,13 @@ describe('ColorPickerService', () => {
 
     it('should create the app', () => {
         expect(service).toBeTruthy();
+    });
+
+    it('should get color class', ()=> {
+        expect(service.getColorClass());
+    });
+
+    it('should set color class', () => {
+        expect(service.setColorClass('app-theme'));
     })
 })
