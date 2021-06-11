@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { ColorPickerService } from 'src/app/services/color-picker.service';
+import { ColorPickerService } from '../../services/color-picker.service';
 
 @Component({
   selector: 'app-navbar',
